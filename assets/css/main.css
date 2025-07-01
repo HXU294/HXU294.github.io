@@ -4,7 +4,7 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
 
 .susie-navbar {
   width: 100%;
-  background: #FFA94D;
+  background: #9B59B6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,8 +39,8 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
   border-radius: 8px;
 }
 .susie-navbar .nav-menu a:hover {
-  color: #FFA94D;
-  background: #fff3e0;
+  color: #9B59B6;
+  background: #F3E6FA;
 }
 
 .main-content { margin: 0 auto; max-width: 900px; padding: 0 24px; }
@@ -48,7 +48,7 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
 .susie-hero {
   position: relative;
   width: 100%;
-  background: #FFF3E0;
+  background: #F3E6FA;
   padding: 64px 0 48px 0;
     text-align: center;
     overflow: hidden;
@@ -56,7 +56,7 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
 .susie-hero .hero-bg {
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: repeating-linear-gradient(135deg, #FFD180 0 24px, #FFF3E0 24px 48px);
+  background: repeating-linear-gradient(135deg, #D2B4FF 0 24px, #F3E6FA 24px 48px);
   opacity: 0.12;
   z-index: 0;
 }
@@ -67,24 +67,24 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
 .susie-hero .hero-title {
   font-size: 54px;
   font-weight: bold;
-  color: #FFA94D;
+  color: #9B59B6;
   margin-bottom: 18px;
   letter-spacing: 2px;
-  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #FFD180;
+  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #D2B4FF;
 }
 .siri-name {
-  color: #4A90E2;
-  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #FFD180;
+  color: #6C3483;
+  text-shadow: 2px 2px 0 #fff, 4px 4px 0 #D2B4FF;
 }
 .susie-hero .hero-subtitle {
   font-size: 22px;
-  color: #4A90E2;
+  color: #6C3483;
     font-weight: 500;
   margin-bottom: 18px;
 }
 .hero-arrow {
   font-size: 38px;
-  color: #4A90E2;
+  color: #6C3483;
   margin-top: 18px;
   animation: arrow-bounce 1.2s infinite alternate;
 }
@@ -94,7 +94,7 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
 }
 
 .siri-nav-section {
-  background: #FFF8E1;
+  background: #F3E6FA;
   border-radius: 0 0 36px 36px;
   padding: 48px 0 40px 0;
   margin-bottom: 32px;
@@ -118,13 +118,13 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
 .siri-nav-title {
   font-size: 32px;
   font-weight: bold;
-  color: #FFA94D;
+  color: #9B59B6;
   margin-bottom: 8px;
   font-family: 'Comic Sans MS', 'Comic Sans', 'Fredoka One', cursive, sans-serif;
 }
 .siri-nav-arrow {
     font-size: 32px;
-  color: #FFA94D;
+  color: #9B59B6;
   margin-bottom: 12px;
 }
 .siri-nav-tip {
@@ -150,13 +150,13 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
   border-radius: 50%;
   object-fit: cover;
   background: #fff;
-  box-shadow: 0 2px 12px rgba(255,169,77,0.10);
-  border: 4px solid #fff3e0;
+  box-shadow: 0 2px 12px rgba(155,89,182,0.10);
+  border: 4px solid #F3E6FA;
 }
 .siri-nav-label {
   margin-top: 16px;
     font-size: 18px;
-  color: #4A90E2;
+  color: #6C3483;
     font-weight: 500;
     text-align: center;
 }
@@ -197,8 +197,8 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
   margin: 0 auto 12px auto;
     object-fit: cover;
   border-radius: 50%;
-  background: #FFF3E0;
-  box-shadow: 0 2px 8px rgba(255,169,77,0.10);
+  background: #F3E6FA;
+  box-shadow: 0 2px 8px rgba(155,89,182,0.10);
   border: 4px solid #fff;
 }
 .work-info h3 { font-size: 18px; font-weight: 400; margin-bottom: 8px; }
@@ -259,15 +259,15 @@ body { font-family: 'Inter', sans-serif; background: #fff; color: #111; font-wei
   margin: 56px auto 32px auto;
     text-align: center;
   max-width: 540px;
-  background: #FFF3E0;
+  background: #F3E6FA;
   border-radius: 18px;
   padding: 36px 24px 28px 24px;
-  box-shadow: 0 2px 8px rgba(255,169,77,0.08);
+  box-shadow: 0 2px 8px rgba(155,89,182,0.08);
 }
 .about-me h2 {
   font-size: 28px;
   font-weight: bold;
-  color: #FFA94D;
+  color: #9B59B6;
   margin-bottom: 18px;
 }
 .about-me p {
@@ -338,11 +338,11 @@ body.siri-art-bg {
   line-height: 1.1;
   text-shadow:
     2px 2px 8px #000a,
-    0 0 12px #4A90E2,
-    0 0 24px #FFA94D;
+    0 0 12px #6C3483,
+    0 0 24px #9B59B6;
   display: inline-block;
   animation: title-wobble 2.2s infinite alternate cubic-bezier(0.4,0,0.2,1);
-  background: linear-gradient(90deg, #fff 30%, #4A90E2 60%, #FFA94D 100%);
+  background: linear-gradient(90deg, #fff 30%, #6C3483 60%, #9B59B6 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -369,7 +369,7 @@ body.siri-art-bg {
 }
 @keyframes pix-jump {
   0% { top: 0; filter: none; }
-  40% { top: -6px; filter: drop-shadow(0 0 4px #FFA94D); }
+  40% { top: -6px; filter: drop-shadow(0 0 4px #9B59B6); }
   100% { top: 0; filter: none; }
 }
 .siri-art-footer {
